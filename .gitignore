@@ -1,0 +1,53 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Trained models & weights
+saved_models/
+*.pt
+*.pkl
+*.model
+*.npy
+*.safetensors
+*.bin
+
+# Data files
+*.csv
+*.tsv
+
+# Plots & results
+*.png
+*.jpg
+*.jpeg
+results/
+results_comparison/
+results_*/
+
+# Updated folder outputs (keep only if it has code you want tracked)
+updated/saved_models*/
+updated/results*/
+updated/__pycache__/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+*.tmp
