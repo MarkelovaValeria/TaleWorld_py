@@ -1,0 +1,11 @@
+__pycache__
+*.pyc
+*.pyo
+*.ipynb
+results/
+results_*/
+*.csv
+*.png
+*.html
+.git
+.claude
